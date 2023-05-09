@@ -1,11 +1,9 @@
 # Mejor de Mira
 AWS Hack4Good 2023
 
-<img src="https://github.com/thelearner411/MDM/blob/main/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
-
-## La Meta
-
 Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
+
+<img src="https://github.com/thelearner411/MDM/blob/main/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
 
 ## Lenguaje de Programación
 
