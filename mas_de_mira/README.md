@@ -1,16 +1,4 @@
-# mas_de_mira
+# Mejor de Mira
+AWS Hack4Good 2023
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz. La aplicación fue programada en el lenguaje Dart usando el SDK de Flutter.
