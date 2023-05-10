@@ -1,16 +1,22 @@
-# Mejor de Mira
-AWS Hack4Good 2023
+# Hackathon For Good: La Región de AWS en España al Servicio de la Sociedad
+
+# Mejor de Mira - MDM
+
+<a href="https://github.com/thelearner411/MDM-Hack4Good">Fork del Proyecto</a>
+
+## Descripción del Proyecto
 
 Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
 
 <img src="https://github.com/thelearner411/MDM/blob/main/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
 
-## Lenguaje de Programación
+## Diagrama de Arquitectura
 
-Mejor de Mira fue programado en el lenguaje Dart usando el SDK de Flutter.
+<img src="https://github.com/thelearner411/MDM/blob/dev/assets/MDM-arquitectura.png" alt="Diagrama de Arquitectura" style="display: block; margin: auto;"/>
 
+## Descripción Técnica
 
-## Los Servicios de AWS
+La aplicacion de móvil "Mejor de Mira" fue programada en el lenguaje Dart usando el SDK de Flutter.
 
 Utilizamos varios servicios de AWS para facilitar el proceso:
 
@@ -23,17 +29,17 @@ Utilizamos varios servicios de AWS para facilitar el proceso:
   - para repetir en voz alta una lista predefinida por el usuario.
   - pra decir la etiqueta de un producto escaneado.
 
-
-### Variables importantes:
-En el archivo de mas_de_mira/lib/screens/cart.dart, hay una variable llamada <b>${POOL_ID}</b>. Este es un ID de Amazon Cognito que usamos para acceder a AWS Polly para la conversión de texto a voz. En esta pantalla, AWS Polly dice la lista de compras predefinida.
-
-En el archivo de mas_de_mira/lib/screens/camera.dart, hay tres variables secretas:
-- <b>${IMG_UPLOAD_API_URL}</b>: la URL de la API que permite a los usuarios escanear fotos de productos que se cargan en el S3 bucket.
-- <b>${PREDICTION_API_URL}</b>: la URL de la API que accede al modelo de AWS Rekognition que responde con la etiqueta del producto.
-- <b>${POOL_ID}</b>: el ID de Amazon Cognito que es un requisito para que AWS Polly diga la etiqueta. En esta pantalla, AWS Polly dice la etiqueta del producto capturado.
-
-## Presentación en Video
+## Demo Vídeo
 
 Dale click a la imagen abajo para ver la presentación en video.
 
 [![Mira la presentación en video](https://github.com/thelearner411/MDM/blob/dev/assets/MDM-video-screenshot.png)](https://www.youtube.com/watch?v=yB8JMReQRIU "MDM - Presentación en Video")
+
+
+## Team Members
+
+Doris Menard: dorismenard@alumni.ie.edu
+
+Mateo Vizuete: mateovizuete@gmail.com
+
+Mikhaile Collins: collinsinfospot@gmail.com
