@@ -31,3 +31,9 @@ En el archivo de mas_de_mira/lib/screens/camera.dart, hay tres variables secreta
 - <b>${IMG_UPLOAD_API_URL}</b>: la URL de la API que permite a los usuarios escanear fotos de productos que se cargan en el S3 bucket.
 - <b>${PREDICTION_API_URL}</b>: la URL de la API que accede al modelo de AWS Rekognition que responde con la etiqueta del producto.
 - <b>${POOL_ID}</b>: el ID de Amazon Cognito que es un requisito para que AWS Polly diga la etiqueta. En esta pantalla, AWS Polly dice la etiqueta del producto capturado.
+
+## Presentación en Video
+
+Dale click a la imagen abajo para ver la presentación en video.
+
+[![Mira la presentación en video](https://github.com/thelearner411/MDM/blob/dev/assets/MDM-video-screenshot.png)](https://www.youtube.com/watch?v=yB8JMReQRIU "MDM - Presentación en Video")
