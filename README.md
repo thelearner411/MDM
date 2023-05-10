@@ -25,9 +25,9 @@ Utilizamos varios servicios de AWS para facilitar el proceso:
 
 
 ### Variables importantes:
-En el archivo de lib/screens/cart.dart, hay una variable llamada <b>${POOL_ID}</b>. Este es un ID de Amazon Cognito que usamos para acceder a AWS Polly para la conversión de texto a voz. En esta pantalla, AWS Polly dice la lista de compras predefinida.
+En el archivo de mas_de_mira/lib/screens/cart.dart, hay una variable llamada <b>${POOL_ID}</b>. Este es un ID de Amazon Cognito que usamos para acceder a AWS Polly para la conversión de texto a voz. En esta pantalla, AWS Polly dice la lista de compras predefinida.
 
-En el archivo de lib/screens/camera.dart, hay tres variables secretas:
+En el archivo de mas_de_mira/lib/screens/camera.dart, hay tres variables secretas:
 - <b>${IMG_UPLOAD_API_URL}</b>: la URL de la API que permite a los usuarios escanear fotos de productos que se cargan en el S3 bucket.
 - <b>${PREDICTION_API_URL}</b>: la URL de la API que accede al modelo de AWS Rekognition que responde con la etiqueta del producto.
 - <b>${POOL_ID}</b>: el ID de Amazon Cognito que es un requisito para que AWS Polly diga la etiqueta. En esta pantalla, AWS Polly dice la etiqueta del producto capturado.
